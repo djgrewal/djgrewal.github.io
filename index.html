@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>diljot!</title>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- scripts -->
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <section class="hero-section align-middle" id="home">
+      <div class="row hero-items">
+        <div class="col-lg-6 align-self-center">
+          <h1 class="hero-title noselect">diljot<i>!</i></h1>
+        </div>
+        <div class="col align-self-center">
+          <div class="container hero-links">
+            <div class="row">
+              <a href="#about">
+                <h3 class="hero-links-individual">about me</h3>
+              </a>
+            </div>
+            <div class="row">
+              <a href="#projects">
+                <h3 class="hero-links-individual">projects</h3>
+              </a>
+            </div>
+            <div class="row">
+              <a href="#contact">
+                <h3 class="hero-links-individual">contact</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <nav class="navbar me-auto sticky-top navbar-expand-lg navbar-light" aria-label="Eighth navbar example">
+      <div class="container">
+        <a class="navbar-brand" href="#home">diljot<i>!</i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-md-end" id="navbarsExample07">
+          <ul class="nav navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <section class="about-section" id="about">
+      <div class="container section-heading">
+        <h2>about me</h2>
+      </div>
+      <div class="container content-container">
+        <div class="container">
+          <div class="row self-summary">
+            <div class="col-lg-auto no-padding">
+              <img class="profile-pic no-select" src="images/diljot.png" alt="Diljot">
+            </div>
+            <div class="col self-desc align-items-center">
+              <p>Hi, I'm <b>diljot<i>!</i></b></p>
+              <p class="no-margin">I am a recent STEM graduate, who has a broad skillset and loves to learn.</p>
+            </div>
+          </div>
+          <div class="row attributes-row">
+            <div class="col-lg-6">
+              <div class="row">
+                <h3>education</h3>
+              </div>
+              <div class="row">
+                <p class="degree no-margin"> MSc Computer Graphics, Vision and Imaging</p>
+                <p>University College London <i>(2020-2021) </i>- Distinction</p>
+              </div>
+              <div class="row">
+                <p class="degree no-margin"> MEng Mechanical Engineering</p>
+                <p>Imperial College London <i>(2014-2019) </i>- 2:1</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h3>skills</h3>
+              <div class="row">
+                <ul class="skills-list">
+                  <li><b>Programming Languages:</b> Python, HTML, CSS, MATLAB, C</li>
+                  <li><b>Web Dev Frameworks:</b> bootstrap </li>
+                  <li><b>Data Science/ML Frameworks:</b> Numpy, Jupyter, PyTorch, scikit-learn</li>
+                  <li><b>Version Control:</b> git/github</li>
+                  <li><b>Design:</b> Figma, Adobe Photoshop, Solidworks</li>
+                  <li><b>Misc:</b> Technical Reporting</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+      <div class="container section-heading">
+        <h2>projects</h2>
+      </div>
+      <div class="container content-container">
+        <div class="container projects-container">
+          <div class="row projects-row">
+            <div class="col-lg-4">
+              <div class="card">
+                <img class="card-img-top" src="images/decoding-V1-representations.png" alt="Decoding V1 Representations">
+                <div class="card-body">
+                  <h3 class="card-title">Decoding V1 Representations</h3>
+                  <p class="card-text">Reconstructed images seen by mice through decoding neuronal activity recorded from the primary visual cortex. Produced and trained traditional ML and generative NN models
+(GANs) to reproduce images seen by mice from their brain activity, before being evaluated.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Academic</li>
+                  <li class="list-group-item">Data Science/Machine Learning</li>
+                  <li class="list-group-item">Python PyTorch NumPy Jupyter</li>
+                </ul>
+                <div class="card-body">
+                  <p class="no-margin">Thesis and code currently private as I am looking to publish this work. Available upon request.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <img class="card-img-top" src="images/laplacian-surface-editing.png" alt="Laplacian Surface Editing">
+                <div class="card-body">
+                  <h3 class="card-title">Laplacian Surface Editing</h3>
+                  <p class="card-text">Implemented “Laplacian Surface Editing” by Sorkine et al in an interactive Python program. Using linear algebra and
+differential geometry, the program enabled users to edit, and deform/sculpt 3D meshes through a simple UI.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Academic</li>
+                  <li class="list-group-item">3D Computer Graphics</li>
+                  <li class="list-group-item">Python PyMesh</li>
+                </ul>
+                <div class="card-body">
+                  <h3 class="no-margin"><a href="https://youtube.com" target="_blank"><i class="fab fa-youtube-square"></i></a>
+                    <a href="https://github.com/djgrewal/python-mesh-deformation" target="_blank"><i class="fab fa-github-square"></i></a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <img class="card-img-top" src="images/robot.png" alt="Robot © ->  Openclipart">
+                <div class="card-body">
+                  <h3 class="card-title">Autonomous "Bomb Disposal" Robot</h3>
+                  <p class="card-text">Programmed a low-spec microcontroller in the C programming language to control an autonomous robot to find an IR
+                    emitting source, communicate a “disarm code” using RFID and then return to its original location.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Academic</li>
+                  <li class="list-group-item">Robotics</li>
+                  <li class="list-group-item">Embedded-C</li>
+                </ul>
+                <div class="card-body">
+                  <h3 class="no-margin"><a href="https://github.com/djgrewal/autonomous-robot" target="_blank"><i class="fab fa-github-square"></i></a></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container section-heading">
+        <h2>contact</h2>
+      </div>
+      <div class="container content-container">
+        <div class="container-fluid contact-container">
+          <div class="row">
+            <h3>get in touch!</h3>
+            <div class="column">
+              <div class="row">
+                <h2>👋</h2>
+                <p>Diljot Grewal</p>
+              </div>
+              <div class="row">
+                <p><b>email: </b>diljot@live.co.uk</p>
+              </div>
+              <div class="row">
+                <p><b>LinkedIn: </b><a href="https://www.linkedin.com/in/diljot/" target="_blank">linkedin.com/in/diljot</a></p>
+              </div>
+              <div class="row">
+                <p><b>github: </b><a href="https://github.com/djgrewal" target="_blank">github.com/djgrewal</a></p></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+</body>
+
+</html>
